@@ -1,0 +1,9 @@
+title: Your awesome title
+email: your-email@domain.com
+description: >
+    Penny is a PHP framework that helps you to build middleware applications, it is based on an event system and allows you to combine the perfect libraries for your application.
+baseurl: ""
+url: "http://pennyphp.org"
+auto: true
+permalink: /blog/:title
+markdown: rdiscount
