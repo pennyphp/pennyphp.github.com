@@ -5,15 +5,43 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="row">
+        <div class="col-md-2">
+           <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+              <ul class="nav bs-docs-sidenav" id="docmenu">
+                  {% for nav_item in nav %}
+                      {% if nav_item.children %}
+                          <li>{{ nav_item.title }}
+                              <ul class="nav sub">
+                              {% for nav_item in nav_item.children %}
+                                  <li class="{% if nav_item.active%}current{%endif%}">
+                                      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                                  </li>
+                              {% endfor %}
+                              </ul>
+                          </li>
+                      {% else %}
+                          <li class="{% if nav_item.active%}current{%endif%}">
+                              <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                          </li>
+                      {% endif %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+                  {% endfor %}
+                  <li><a href="/">Home</a></li>
+                  <li><a href="http://docs.pennyphp.org/en/latest/">Documentation</a></li>
+                  <li><a href="https://github.com/ginarb/penny" target="_blank">Repository</a></li>
+                  <li><a href="https://github.com/ginarb/penny-classic-app" target="_blank">Skeleton Application</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="col-md-8 subbody no-float">
+            {{ content }}
+        </div>
     </div>
 
-    {% include footer.html %}
+    <script src="{{ "/js/jquery/dist/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/bootstrap/dist/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 
   </body>
 
