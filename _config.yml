@@ -1,10 +1,9 @@
 host: 0.0.0.0
 title: Penny PHP Framework
-email: your-email@domain.com
+email: gianarb92@gmail.com
 description: >
     Penny is a PHP framework that helps you to build middleware applications, it is based on an event system and allows you to combine the perfect libraries for your application.
 baseurl: ""
 url: "http://pennyphp.org"
-auto: true
 permalink: /blog/:title
 markdown: rdiscount
