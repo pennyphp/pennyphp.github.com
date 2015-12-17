@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+summary: This is a list of blogpost. Penny is a PHP ecosystem and we could
+    found info about this world and about new relaeses and docs.
+tags: devops, developer, blog, post, docker, php
+permalink: /blog/
+---
+<div id="slogan" class="row" style="margin-bottom:50px">
+  <div class="col-md-12">
+    <div class="text-center">
+        <h1>Blog</h1>
+        <h2>tutorial, docs and news by Penny PHP world</h2>
+    </div>
+  </div>
+</div>
+
+{% for post in site.posts %}
+{% include post_detail.html %}
+<hr class="style-two">
+{% endfor %}

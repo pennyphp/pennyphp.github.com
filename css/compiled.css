@@ -6206,3 +6206,8 @@ ul.sub.nav {
 .nav > li:hover ul {
   display: block;
 }
+
+span.post-tag.label.label-info {
+    font-size:1em;
+    padding:3px;
+}
