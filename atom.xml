@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Gianluca Arbezzano - GianArb</title>
+    <link href="http://pennyphp.org/atom.xml" rel="self"/>
+    <link href="http://pennyphp.org/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://gianarb.it</id>
+    <author>
+        <name>Gianluca Arbezzano</name>
+        <uri>http://gianarb.it</uri>
+        <email>gianarb92@gmail.com</email>
+    </author>
+    {% for post in site.posts %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://gianarb.it{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://gianarb.it{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>
