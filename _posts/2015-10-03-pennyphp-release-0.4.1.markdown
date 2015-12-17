@@ -12,4 +12,4 @@ Penny PHP Framework 0.4.1 is ready!
 
 - Fixed test for case insensitive file system
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.4.1)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.4.1)

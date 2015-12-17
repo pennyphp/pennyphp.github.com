@@ -20,4 +20,4 @@ First release for Penny! 0.1.0 is ready to go!
 * [[#9]](https://github.com/gianarb/penny/pull/9) Reduce number of event
 * [[#20]](https://github.com/gianarb/penny/pull/10) Create signature with route params
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.1.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.1.0)

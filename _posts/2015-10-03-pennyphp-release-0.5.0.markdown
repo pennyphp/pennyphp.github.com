@@ -14,4 +14,4 @@ Important Breaking Change, now we use a new namepace `Penny\\`, and not
 
 - Remove gianarb prefix (#82)
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.5.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.5.0)

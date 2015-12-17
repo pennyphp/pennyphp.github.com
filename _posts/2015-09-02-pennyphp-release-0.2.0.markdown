@@ -16,4 +16,4 @@ Penny PHP Framework 0.2.0 is ready!
 * [[#36]](https://github.com/gianarb/penny/pull/36) Revert "Try read the docs layout configuration"
 * [[#37]](https://github.com/gianarb/penny/pull/37) Fixes typos
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.2.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.2.0)

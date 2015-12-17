@@ -18,4 +18,4 @@ Release for Penny! 0.1.2 is ready! Refactory and soupport for PHP 5.4.
 * [[#27]](https://github.com/gianarb/penny/pull/27) Added phpcs check on Travis-CI
 * [[#29]](https://github.com/gianarb/penny/pull/29) Fixes typo
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.1.2)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.1.2)

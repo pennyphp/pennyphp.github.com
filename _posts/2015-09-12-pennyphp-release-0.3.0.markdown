@@ -21,4 +21,4 @@ Penny PHP Framework 0.3.0 is ready!
 * [[#50]](https://github.com/pennyphp/penny/pull/50) update composer.json's keywords
 * [[#53]](https://github.com/pennyphp/penny/pull/53) Fixed #52 Replace http.flow with eventManager **BC_BREAK**
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.3.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.3.0)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Penny 0.7.0, good morning"
 summary: "Penny is a middleware PHP framework made to increase interoperability
-between PHP libraries, this post contains changelog of release 0.5.0"
+between PHP libraries, this post contains changelog of release 0.7.0"
 author: Gianluca Arbezzano
 author_url: https://twitter.com/gianarb
 date:   2015-11-28 22:24:50
@@ -43,4 +43,4 @@ Penny PHP Framework 0.7.0 is ready!
 * [[#142]](https://github.com/pennyphp/penny/pull/142) Fix 139
 * [[#143]](https://github.com/pennyphp/penny/pull/143) re-create 141
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.7.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.7.0)
