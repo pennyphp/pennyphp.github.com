@@ -12,4 +12,4 @@ Release for Penny! 0.1.1 is ready to go and it contains only onle little fix.
 
 * [[61a27f4]](https://github.com/gianarb/penny/commit/61a27f4) Fixed wrong markdown syntax
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.1.1)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.1.1)

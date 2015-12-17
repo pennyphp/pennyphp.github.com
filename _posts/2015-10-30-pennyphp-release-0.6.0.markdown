@@ -28,4 +28,4 @@ Penny PHP Framework 0.6.0 is ready!
 * [[#102]](https://github.com/pennyphp/penny/pull/102) update ERROR_DISPATCH to dispath_error 
 * [[#101]](https://github.com/pennyphp/penny/pull/101) Standard error event
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.6.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.6.0)

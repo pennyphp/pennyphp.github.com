@@ -29,4 +29,4 @@ Penny PHP Framework 0.4.0 is ready!
 - Create container factory (#79)
 
 
-[Github Millestone](https://github.com/pennyphp/penny/releases/tag/0.4.0)
+[Github Milestone](https://github.com/pennyphp/penny/releases/tag/0.4.0)
