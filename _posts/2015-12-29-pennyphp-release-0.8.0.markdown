@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Penny 0.8.0, the lest release of 2015"
+title:  "Penny 0.8.0, the last release of 2015"
 summary: "Penny is a middleware PHP framework made to increase interoperability
 between PHP libraries, this post contains changelog of release 0.8.0"
 author: Gianluca Arbezzano
