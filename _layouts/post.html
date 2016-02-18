@@ -14,6 +14,11 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <p class=°addthis">
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <div class="addthis_sharing_toolbox"></div>
+  </p>
+
   <article class="post-content">
     {{ content }}
   </article>
@@ -33,3 +38,6 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56c64e2330113035"></script>
+
