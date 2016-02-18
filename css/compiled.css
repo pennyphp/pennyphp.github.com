@@ -6177,10 +6177,12 @@ button.close {
   padding: 40px 15px;
   text-align: center;
 }
-.title h1 {
-  font-size: 13em;
-  color: #58ecd5;
-  text-shadow: 5px 0 0 #6b7eb9, -5px 0 0 #6b7eb9, 0 5px 0 #6b7eb9, 0 -5px 0 #6b7eb9, 5px 5px #6b7eb9, -5px -5px 0 #6b7eb9, 5px -5px 0 #6b7eb9, -5px 5px 0 #6b7eb9;
+
+.col-md-12.single-post {
+  text-align: left;
+}
+.col-md-12.single-post h2 {
+    font-size: 1.8em;
 }
 span.post-tag.label.label-info {
     font-size:1em;
