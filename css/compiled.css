@@ -6171,6 +6171,7 @@ button.close {
 @font-family-serif {
   @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 }
+
 .subbody {
   background-color: #FFF;
   padding: 40px 15px;
@@ -6181,32 +6182,6 @@ button.close {
   color: #58ecd5;
   text-shadow: 5px 0 0 #6b7eb9, -5px 0 0 #6b7eb9, 0 5px 0 #6b7eb9, 0 -5px 0 #6b7eb9, 5px 5px #6b7eb9, -5px -5px 0 #6b7eb9, 5px -5px 0 #6b7eb9, -5px 5px 0 #6b7eb9;
 }
-.bs-docs-sidebar {
-  max-width: 260px;
-  top: 10%;
-  width: 100%;
-}
-.nav > li > a {
-  color: #000;
-  background-color: #58ecd5;
-}
-ul.sub.nav {
-  display: none;
-}
-.nav > li {
-  padding-bottom: 2px;
-  padding-top: 2px;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-  color: #9999CC;
-  text-decoration: none;
-  background-color: #58ecd5;
-}
-.nav > li:hover ul {
-  display: block;
-}
-
 span.post-tag.label.label-info {
     font-size:1em;
     padding:3px;

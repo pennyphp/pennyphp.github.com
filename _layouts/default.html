@@ -7,36 +7,33 @@
 
     <div class="row">
         <div class="col-md-2">
-           <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
-              <ul class="nav bs-docs-sidenav" id="docmenu">
-                  {% for nav_item in nav %}
-                      {% if nav_item.children %}
-                          <li>{{ nav_item.title }}
-                              <ul class="nav sub">
-                              {% for nav_item in nav_item.children %}
-                                  <li class="{% if nav_item.active%}current{%endif%}">
-                                      <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-                                  </li>
-                              {% endfor %}
-                              </ul>
-                          </li>
-                      {% else %}
-                          <li class="{% if nav_item.active%}current{%endif%}">
-                              <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
-                          </li>
-                      {% endif %}
-
-                  {% endfor %}
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/blog/">Blog</a></li>
-                  <li><a href="http://docs.pennyphp.org/">Documentation</a></li>
-                  <li><a href="https://github.com/gianarb/penny" target="_blank">Repository</a></li>
-                  <li><a href="https://github.com/gianarb/penny-classic-app" target="_blank">Skeleton Application</a></li>
-                </ul>
-
-            </nav>
         </div>
         <div class="col-md-8 subbody no-float">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/blog/">Blog</a></li>
+                      <li><a href="http://docs.pennyphp.org/">Documentation</a></li>
+                      <li><a href="https://github.com/gianarb/penny" target="_blank">Repository</a></li>
+                      <li><a href="https://github.com/gianarb/penny-classic-app" target="_blank">Skeleton Application</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+
             {{ content }}
         </div>
     </div>
