@@ -6,4 +6,3 @@ description: >
 baseurl: ""
 url: "http://pennyphp.org"
 permalink: /blog/:title
-markdown: rdiscount
