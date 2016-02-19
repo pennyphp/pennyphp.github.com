@@ -6194,3 +6194,7 @@ span.post-tag.label.label-info {
 .navbar-brand img {
     height:45px;
 }
+footer {
+    border-top: 1px solid #9999CC;
+    padding-top:20px;
+}
