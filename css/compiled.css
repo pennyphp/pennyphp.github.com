@@ -6188,3 +6188,9 @@ span.post-tag.label.label-info {
     font-size:1em;
     padding:3px;
 }
+.navbar-brand {
+    padding: 2px 15px;
+}
+.navbar-brand img {
+    height:45px;
+}
