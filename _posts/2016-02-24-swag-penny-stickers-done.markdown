@@ -10,8 +10,8 @@ categories: community
 ---
 
 <div class="row">
-    <div class="col-md-12" style="text-align:center">
-        <img src="/img/stickers_pennyphp.png" alt="PennyPHP Stickers" class="img-responsive">
+    <div class="col-md-12">
+        <img src="/img/stickers_pennyphp.png" style="margin:0 auto" alt="PennyPHP Stickers" class="img-responsive">
     </div>
 </div>
 
@@ -24,8 +24,8 @@ Hello guys! We are very happy to announce our stickers because:
 The first order are arriving to Dublin here a proof
 
 <div class="row">
-    <div class="col-md-12" style="text-align:center">
-        <img src="/img/ups_stickers.png" alt="PennyPHP Stickers" class="img-responsive">
+    <div class="col-md-12">
+        <img src="/img/ups_stickers.png" style="margin:0 auto" alt="PennyPHP Stickers" class="img-responsive">
     </div>
 </div>
 
